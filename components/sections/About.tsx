@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, MapPin, Calendar, Coffee, Code2 } from 'lucide-react';
+import { Download, MapPin, Calendar, Coffee, Bug } from 'lucide-react';
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import Image from "next/image";
 
 const stats = [
-  { icon: Code2, label: "Projects Shipped", value: "40+" },
+  { icon: Bug, label: "Bugs Reported", value: "500+" },
   { icon: Coffee, label: "Cups of Coffee", value: "∞" },
   { icon: Calendar, label: "Years Experience", value: "6+" },
   { icon: MapPin, label: "Location", value: "SF, CA" },
@@ -22,7 +22,7 @@ export default function About() {
               About Me
             </span>
             <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-foreground">
-              The person behind the code
+              The person behind the quality
             </h2>
           </div>
         </ScrollReveal>
@@ -37,7 +37,7 @@ export default function About() {
                 <div className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-2 border-indigo-500/20 shadow-2xl shadow-indigo-500/10">
                   <Image
                     src="https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3904316%2F0d4ee72a-dfb8-4647-ac78-57b2b3607cde.png"
-                    alt="Alex Morgan - Full Stack Developer"
+                    alt="Alex Morgan - Software Quality Assurance Engineer"
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 288px, 320px"
@@ -63,19 +63,19 @@ export default function About() {
             <div className="space-y-6">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p className="text-lg">
-                  I&apos;m a <span className="text-foreground font-semibold">Full Stack Developer</span> with
-                  6+ years of experience building scalable web applications. I specialize in React, Next.js,
-                  and Node.js ecosystems, with a strong eye for design and user experience.
+                  I&apos;m a <span className="text-foreground font-semibold">Software Quality Assurance Engineer</span> with
+                  6+ years of experience ensuring the reliability, performance, and security of complex web and mobile
+                  applications. I specialize in manual and automated testing using tools like Selenium, Cypress, and Playwright.
                 </p>
                 <p>
-                  My journey started with a Computer Science degree from UC Berkeley, followed by roles at
-                  startups and scale-ups where I shipped products used by millions. I&apos;m passionate about
-                  clean architecture, performance optimization, and mentoring junior developers.
+                  My journey started with a Computer Science degree from UC Berkeley, followed by QA roles at
+                  startups and scale-ups where I helped ship high-quality products used by millions. I&apos;m passionate about
+                  building robust test frameworks, CI/CD integration, and championing a quality-first engineering culture.
                 </p>
                 <p>
-                  When I&apos;m not coding, you&apos;ll find me contributing to open source, writing technical
-                  articles, or exploring the latest in AI/ML tooling. I believe great software is built at
-                  the intersection of technical excellence and human empathy.
+                  When I&apos;m not writing test cases, you&apos;ll find me contributing to open source testing tools, writing
+                  about QA best practices, or exploring the latest in test automation and observability. I believe great
+                  software is built when quality is everyone&apos;s responsibility.
                 </p>
               </div>
 
